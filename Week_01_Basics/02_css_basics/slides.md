@@ -275,9 +275,9 @@ font-weight: bold;
 Note:
 
 What style **property** are we specifying here?
-
+font-weight
 What **value** are we setting that **property** to?
-
+bold
 Try writing a new set of styles for another element, like an `h1`.
 
 
@@ -331,7 +331,7 @@ Note:
 
 Hex values can be abbreviated to only 3 digits if each digits is doubled. So `#FFFFFF` (white) can be expressed more succinctly as `#FFF`, and `#000000` (black) can be expressed as `#000`. `#FA6198`, however, cannot be abbreviated without altering the color.
 
-
+BASE 16
 ---
 
 ##Color

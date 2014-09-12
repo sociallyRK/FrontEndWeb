@@ -1,0 +1,72 @@
+
+body {
+	font-family: Lato;
+	font-weight: normal;
+	padding: 3em;		
+}
+
+h1 a {
+	color: red;
+	font-family: Lato;
+	font-size 400px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h2 a {
+	text-decoration: none;
+	color: black;
+}
+h2 a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+header nav a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.25em;
+	margin-right: .75em;
+	color: #DDD;
+	border-bottom: 2px solid #EEE;
+}
+
+header nav a:hover {
+	color: black;
+	border-bottom: 2px solid #EEE;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	margin: 10px, 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+h3 {
+	color: grey;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+
+}
+

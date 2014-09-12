@@ -32,6 +32,7 @@ a {
 	text-decoration: none;
 	-webkit-transition: all 300ms;
 }
+
 a:hover {
 	color: #A00;
 }
@@ -56,6 +57,7 @@ h2 {
 h2 a {
 	color: inherit;
 }
+
 h2 a:hover {
 	color: #D00;
 }
@@ -106,6 +108,7 @@ header nav ul li {
 	margin: 0;
 	padding: 0;
 }
+
 header nav a {
 	display: block;
 	font-size: 1.25em;
@@ -115,6 +118,7 @@ header nav a {
 	padding: 15px 0;
 	text-align: center;
 }
+
 header nav a:hover {
 	color: white;
 	background: #900;
@@ -137,6 +141,7 @@ article p:first-of-type:first-letter {
 	border-bottom: 1px solid #DDD;
 	padding: 1.5em 0;
 }
+
 .module:last-of-type {
 	border: none;
 }

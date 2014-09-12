@@ -1,0 +1,39 @@
+<html>
+<head>
+	<style>
+		#container{
+			width:300px;
+			height:301px;
+			background:green;
+			transition: all is;
+		}
+		#container:hover{
+
+		}
+	</style>
+</head>
+
+<body>
+	<div id="container">
+	</div>
+
+	<button id="myButton">Click ME!</button>
+
+	<script>
+			document.getElementById('myButton').onclick = changeColor;
+			document.getElementById('container').onmouseover = hoverColor;
+			function changeColor(){
+				console.log("Change color called");
+				document.getElementById('container').style.background = 'blue';
+			}
+
+			function hoverColor(){
+				console.log("Hover color called");
+				document.getElementById('container').style.background = 'pink';
+			}
+	</script>
+
+	</head>
+
+	</html>
+
